@@ -1,13 +1,13 @@
 
 # !!!!!!!!!!!!! EDIT THE FOLLOWING LINE AS NEEDED TO POINT AT YOUR BASIC GRAPHICS LIBARARY INSTALL !!!!!!!!!!!!! 
-list(APPEND CMAKE_PREFIX_PATH ../basicgraphics/build/install ../minvr/build/install /Volumes/Windows/Users/bjackson/Documents/classes/comp494-graphics/code/minvr/build/install /Volumes/Windows/Users/bjackson/Documents/classes/comp494-graphics/code/basicgraphics/build/install)
+list(APPEND CMAKE_PREFIX_PATH ../basicgraphics/build/install ../minvr/build/install /Users/bjackson/Documents/classes/comp494-graphics/code/minvr/build/install /Users/bjackson/Documents/classes/comp494-graphics/code/basicgraphics/build/install)
 
 
 
 message(STATUS "prefix path: ${CMAKE_PREFIX_PATH}")
 
-# Using 3.9 to get a modern version of FindOpenGL.cmake
-cmake_minimum_required (VERSION 3.9) 
+# Using 3.10 to get a modern version of FindOpenGL.cmake
+cmake_minimum_required (VERSION 3.10) 
 
 set (CMAKE_CXX_STANDARD 11)
 
