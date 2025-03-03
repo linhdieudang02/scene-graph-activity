@@ -63,6 +63,7 @@ private:
     std::unique_ptr<basicgraphics::GroundPlane> ground;
     
     std::unique_ptr<SceneNode> sceneGraphRoot;
+//    std::unique_ptr<basicgraphics::Box> box;
     
     virtual void reloadShaders();
     basicgraphics::GLSLProgram _shader;
